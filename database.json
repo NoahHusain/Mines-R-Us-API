@@ -1,0 +1,220 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "name": "Noah Husain",
+        "email": "noahhusain@gmail.com"
+      },
+      {
+        "id": 2,
+        "name": "Payton Husain",
+        "email": "husainpayton@gmail.com"
+      }
+    ],
+    "planets": [
+      {
+        "id": 1,
+        "system": "Stanton",
+        "name": "ArcCorp"
+      },
+      {
+        "id": 2,
+        "system": "Stanton",
+        "name": "Hurston"
+      },
+      {
+        "id": 3,
+        "system": "Stanton",
+        "name": "Crusader"
+      },
+      {
+        "id": 4,
+        "system": "Stanton",
+        "name": "Microtech"
+      }
+    ],
+    "moons": [
+      {
+        "id": 1,
+        "name": "Lyria",
+        "planetId": 1
+      },
+      {
+        "id": 2,
+        "name": "Wala",
+        "planetId": 1
+      },
+      {
+        "id": 3,
+        "name": "Ita",
+        "planetId": 2
+      },
+      {
+        "id": 4,
+        "name": "Magda",
+        "planetId": 2
+      },
+      {
+        "id": 5,
+        "name": "Aberdeen",
+        "planetId": 2
+      },
+      {
+        "id": 6,
+        "name": "Arial",
+        "planetId": 2
+      },
+      {
+        "id": 7,
+        "name": "Yela",
+        "planetId": 3
+      },
+      {
+        "id": 8,
+        "name": "Daymar",
+        "planetId": 3
+      },
+      {
+        "id": 9,
+        "name": "Cellin",
+        "planetId": 3
+      },
+      {
+        "id": 10,
+        "name": "Clio",
+        "planetId": 4
+      },
+      {
+        "id": 11,
+        "name": "Calliope",
+        "planetId": 4
+      },
+      {
+        "id": 12,
+        "name": "Euterpe",
+        "planetId": 4
+      }
+    ],
+    "ores": [
+      {
+        "id": 1,
+        "name": "Quantinium" ,
+        "rarity":"Exceddingly Rare",
+        "valueRaw": 44.04,
+        "valueRefined": 88.08
+      },
+      {
+        "id": 2,
+        "name": "Bexalite" ,
+        "rarity":"Rare",
+        "valueRaw": 20.24,
+        "valueRefined": 40.48
+      },
+      {
+        "id": 3,
+        "name": "Taranite" ,
+        "rarity":"Rare",
+        "valueRaw": 16.22,
+        "valueRefined": 32.44
+      },
+      {
+        "id": 4,
+        "name": "Borase" ,
+        "rarity":"Rare",
+        "valueRaw": 16.22,
+        "valueRefined": 32.45
+      },
+      {
+        "id": 5,
+        "name": "Laranite" ,
+        "rarity":"Rare",
+        "valueRaw": 15.12,
+        "valueRefined": 30.24
+      },
+      {
+        "id": 6,
+        "name": "Agricum" ,
+        "rarity":"Rare",
+        "valueRaw": 13.44,
+        "valueRefined": 26.88
+      },
+      {
+        "id": 7,
+        "name": "Hephaestanite" ,
+        "rarity":"Rare",
+        "valueRaw": 7.33,
+        "valueRefined": 14.66
+      },
+      {
+        "id": 8,
+        "name": "Titanium" ,
+        "rarity":"Less Common",
+        "valueRaw": 4.33,
+        "valueRefined": 8.66
+      },
+      {
+        "id": 9,
+        "name": "Diamond" ,
+        "rarity":"Less Common",
+        "valueRaw": 3.59,
+        "valueRefined": 7.18
+      },
+      {
+        "id": 10,
+        "name": "Gold" ,
+        "rarity":"Less Common",
+        "valueRaw": 3.16,
+        "valueRefined": 6.32
+      },
+      {
+        "id": 11,
+        "name": "Copper" ,
+        "rarity":"Common",
+        "valueRaw": 2.85,
+        "valueRefined": 5.70
+      },
+      {
+        "id": 12,
+        "name": "Beryl" ,
+        "rarity":"Common",
+        "valueRaw": 2.15,
+        "valueRefined": 4.30
+      },
+      {
+        "id": 13,
+        "name": "Tungsten" ,
+        "rarity":"Common",
+        "valueRaw": 2.0,
+        "valueRefined": 4.01
+      },
+      {
+        "id": 14,
+        "name": "Corundum" ,
+        "rarity":"Common",
+        "valueRaw": 1.33,
+        "valueRefined": 2.66
+      },
+      {
+        "id": 15,
+        "name": "Quartz" ,
+        "rarity":"Common",
+        "valueRaw": 0.75,
+        "valueRefined": 1.50
+      },
+      {
+        "id": 16,
+        "name": "Aluminium" ,
+        "rarity":"Common",
+        "valueRaw": 0.64,
+        "valueRefined": 1.28
+      },
+      {
+        "id": 17,
+        "name": "Inert Materials" ,
+        "rarity":"Exceedingly Common",
+        "valueRaw": 0.01,
+        "valueRefined": 0.01
+      }
+    ],
+    "orePatches": []
+  }
