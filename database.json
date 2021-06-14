@@ -216,5 +216,394 @@
         "valueRefined": 0.01
       }
     ],
-    "orePatches": []
+    "refineries": [
+      {
+        "id": 1,
+        "name": "ARC-L1 Wide Forest Station" ,
+        "planetId": 1
+      },
+      {
+        "id": 2,
+        "name": "HUR-L1 Green Glade Station" ,
+        "planetId": 2
+      },
+      {
+        "id": 3,
+        "name":  "HUR-L2 Faithful Dream Station",
+        "planetId": 2
+      },
+      {
+        "id": 4,
+        "name": "CRU-L1 Ambitious Dream Station" ,
+        "planetId": 3
+      },
+      {
+        "id": 5,
+        "name": "MIC-L1 Shallow Frontier Station" ,
+        "planetId": 4
+      }
+    ],
+    "orePatches": [],
+    "oreRefineries": [
+      {
+        "id": 1,
+        "oreId": 1,
+        "refineryId": 1,
+        "efficient": false,
+        "efficiencyBonus": null
+      },
+      {
+        "id": 2,
+        "oreId": 2,
+        "refineryId": 1,
+        "efficient": false,
+        "efficiencyBonus": null
+      },
+      {
+        "id": 3,
+        "oreId": 3,
+        "refineryId": 1,
+        "efficient": true,
+        "efficiencyBonus": 3
+      },
+      {
+        "id": 4,
+        "oreId": 4,
+        "refineryId": 1,
+        "efficient": false,
+        "efficiencyBonus": -3
+      },
+      {
+        "id": 5,
+        "oreId": 5,
+        "refineryId": 1,
+        "efficient": true,
+        "efficiencyBonus": 4
+      },
+      {
+        "id": 6,
+        "oreId": 6,
+        "refineryId": 1,
+        "efficient": true,
+        "efficiencyBonus": 2
+      },
+      {
+        "id": 7,
+        "oreId": 7,
+        "refineryId": 1,
+        "efficient": false,
+        "efficiencyBonus": -2
+      },
+      {
+        "id": 8,
+        "oreId": 8,
+        "refineryId": 1,
+        "efficient": false,
+        "efficiencyBonus": null
+      },
+      {
+        "id": 9,
+        "oreId": 9,
+        "refineryId": 1,
+        "efficient": true,
+        "efficiencyBonus": 4
+      },
+      {
+        "id": 10,
+        "oreId": 10,
+        "refineryId": 1,
+        "efficient": false,
+        "efficiencyBonus": -6
+      },
+      {
+        "id": 11,
+        "oreId": 11,
+        "refineryId": 1,
+        "efficient": false,
+        "efficiencyBonus": null
+      },
+      {
+        "id": 12,
+        "oreId": 12,
+        "refineryId": 1,
+        "efficient": false,
+        "efficiencyBonus": -9
+      },
+      {
+        "id": 13,
+        "oreId": 13,
+        "refineryId": 1,
+        "efficient": false,
+        "efficiencyBonus": null
+      },
+      {
+        "id": 14,
+        "oreId": 14,
+        "refineryId": 1,
+        "efficient": true,
+        "efficiencyBonus": 2
+      },
+      {
+        "id": 15,
+        "oreId": 15,
+        "refineryId": 1,
+        "efficient": false,
+        "efficiencyBonus": null
+      },
+      {
+        "id": 16,
+        "oreId": 16,
+        "refineryId": 1,
+        "efficient": true,
+        "efficiencyBonus": 4
+      },
+      {
+        "id": 17,
+        "oreId": 17,
+        "refineryId": 1,
+        "efficient": false,
+        "efficiencyBonus": null
+      },
+      {
+        "id": 18,
+        "oreId": 1,
+        "refineryId": 2,
+        "efficient": true,
+        "efficiencyBonus": 3
+      },
+      {
+        "id": 19,
+        "oreId": 2,
+        "refineryId": 2,
+        "efficient": true,
+        "efficiencyBonus": 5
+      },
+      {
+        "id": 20,
+        "oreId": 3,
+        "refineryId": 2,
+        "efficient": false,
+        "efficiencyBonus": null
+      },
+      {
+        "id": 21,
+        "oreId": 4,
+        "refineryId": 2,
+        "efficient": false,
+        "efficiencyBonus": null
+      },
+      {
+        "id": 22,
+        "oreId": 5,
+        "refineryId": 2,
+        "efficient": false,
+        "efficiencyBonus": null
+      },
+      {
+        "id": 23,
+        "oreId": 6,
+        "refineryId": 2,
+        "efficient": false,
+        "efficiencyBonus": null
+      },
+      {
+        "id": 24,
+        "oreId": 7,
+        "refineryId": 2,
+        "efficient": false,
+        "efficiencyBonus": null
+      },
+      {
+        "id": 25,
+        "oreId": 8,
+        "refineryId": 2,
+        "efficient": true,
+        "efficiencyBonus": 4
+      },
+      {
+        "id": 26,
+        "oreId": 9,
+        "refineryId": 2,
+        "efficient": false,
+        "efficiencyBonus": null
+      },
+      {
+        "id": 27,
+        "oreId": 10,
+        "refineryId": 2,
+        "efficient": true,
+        "efficiencyBonus": 4
+      },
+      {
+        "id": 28,
+        "oreId": 11,
+        "refineryId": 2,
+        "efficient": false,
+        "efficiencyBonus": null
+      },
+      {
+        "id": 29,
+        "oreId": 12,
+        "refineryId": 2,
+        "efficient": false,
+        "efficiencyBonus": null
+      },
+      {
+        "id": 30,
+        "oreId": 13,
+        "refineryId": 2,
+        "efficient": true,
+        "efficiencyBonus": 2
+      },
+      {
+        "id": 31,
+        "oreId": 14,
+        "refineryId": 2,
+        "efficient": false,
+        "efficiencyBonus": -4
+      },
+      {
+        "id": 32,
+        "oreId": 15,
+        "refineryId": 2,
+        "efficient": false,
+        "efficiencyBonus": null
+      },
+      {
+        "id": 33,
+        "oreId": 16,
+        "refineryId": 2,
+        "efficient": false,
+        "efficiencyBonus": null
+      },
+      {
+        "id": 34,
+        "oreId": 17,
+        "refineryId": 2,
+        "efficient": false,
+        "efficiencyBonus": null
+      },
+    ]
   }
+
+
+
+  {
+    "id": 35,
+    "oreId": 1,
+    "refineryId": 2,
+    "efficient": true,
+    "efficiencyBonus": 3
+  },
+  {
+    "id": 36,
+    "oreId": 2,
+    "refineryId": 2,
+    "efficient": true,
+    "efficiencyBonus": 5
+  },
+  {
+    "id": 37,
+    "oreId": 3,
+    "refineryId": 2,
+    "efficient": false,
+    "efficiencyBonus": null
+  },
+  {
+    "id": 38,
+    "oreId": 4,
+    "refineryId": 2,
+    "efficient": false,
+    "efficiencyBonus": null
+  },
+  {
+    "id": 39,
+    "oreId": 5,
+    "refineryId": 2,
+    "efficient": false,
+    "efficiencyBonus": null
+  },
+  {
+    "id": 40,
+    "oreId": 6,
+    "refineryId": 2,
+    "efficient": false,
+    "efficiencyBonus": null
+  },
+  {
+    "id": 41,
+    "oreId": 7,
+    "refineryId": 2,
+    "efficient": false,
+    "efficiencyBonus": null
+  },
+  {
+    "id": 42,
+    "oreId": 8,
+    "refineryId": 2,
+    "efficient": true,
+    "efficiencyBonus": 4
+  },
+  {
+    "id": 43,
+    "oreId": 9,
+    "refineryId": 2,
+    "efficient": false,
+    "efficiencyBonus": null
+  },
+  {
+    "id": 44,
+    "oreId": 10,
+    "refineryId": 2,
+    "efficient": true,
+    "efficiencyBonus": 4
+  },
+  {
+    "id": 45,
+    "oreId": 11,
+    "refineryId": 2,
+    "efficient": false,
+    "efficiencyBonus": null
+  },
+  {
+    "id": 46,
+    "oreId": 12,
+    "refineryId": 2,
+    "efficient": false,
+    "efficiencyBonus": null
+  },
+  {
+    "id": 47,
+    "oreId": 13,
+    "refineryId": 2,
+    "efficient": true,
+    "efficiencyBonus": 2
+  },
+  {
+    "id": 48,
+    "oreId": 14,
+    "refineryId": 2,
+    "efficient": false,
+    "efficiencyBonus": -4
+  },
+  {
+    "id": 49,
+    "oreId": 15,
+    "refineryId": 2,
+    "efficient": false,
+    "efficiencyBonus": null
+  },
+  {
+    "id": 50,
+    "oreId": 16,
+    "refineryId": 2,
+    "efficient": false,
+    "efficiencyBonus": null
+  },
+  {
+    "id": 51,
+    "oreId": 17,
+    "refineryId": 2,
+    "efficient": false,
+    "efficiencyBonus": null
+}
