@@ -224,18 +224,18 @@
       },
       {
         "id": 2,
+        "name": "CRU-L1 Ambitious Dream Station" ,
+        "planetId": 3
+      },
+      {
+        "id": 3,
         "name": "HUR-L1 Green Glade Station" ,
         "planetId": 2
       },
       {
-        "id": 3,
+        "id": 4,
         "name":  "HUR-L2 Faithful Dream Station",
         "planetId": 2
-      },
-      {
-        "id": 4,
-        "name": "CRU-L1 Ambitious Dream Station" ,
-        "planetId": 3
       },
       {
         "id": 5,
@@ -483,127 +483,362 @@
         "efficient": false,
         "efficiencyBonus": null
       },
+      {
+        "id": 35,
+        "oreId": 1,
+        "refineryId": 3,
+        "efficient": false,
+        "efficiencyBonus": -6
+      },
+      {
+        "id": 36,
+        "oreId": 2,
+        "refineryId": 3,
+        "efficient": false,
+        "efficiencyBonus": null
+      },
+      {
+        "id": 37,
+        "oreId": 3,
+        "refineryId": 3,
+        "efficient": false,
+        "efficiencyBonus": null
+      },
+      {
+        "id": 38,
+        "oreId": 4,
+        "refineryId": 3,
+        "efficient": false,
+        "efficiencyBonus": null
+      },
+      {
+        "id": 39,
+        "oreId": 5,
+        "refineryId": 3,
+        "efficient": true,
+        "efficiencyBonus": 4
+      },
+      {
+        "id": 40,
+        "oreId": 6,
+        "refineryId": 3,
+        "efficient": true,
+        "efficiencyBonus": 3
+      },
+      {
+        "id": 41,
+        "oreId": 7,
+        "refineryId": 3,
+        "efficient": false,
+        "efficiencyBonus": null
+      },
+      {
+        "id": 42,
+        "oreId": 8,
+        "refineryId": 3,
+        "efficient": true,
+        "efficiencyBonus": 2
+      },
+      {
+        "id": 43,
+        "oreId": 9,
+        "refineryId": 3,
+        "efficient": false,
+        "efficiencyBonus": null
+      },
+      {
+        "id": 44,
+        "oreId": 10,
+        "refineryId": 3,
+        "efficient": false,
+        "efficiencyBonus": null
+      },
+      {
+        "id": 45,
+        "oreId": 11,
+        "refineryId": 3,
+        "efficient": true,
+        "efficiencyBonus": 10
+      },
+      {
+        "id": 46,
+        "oreId": 12,
+        "refineryId": 3,
+        "efficient": true,
+        "efficiencyBonus": 3
+      },
+      {
+        "id": 47,
+        "oreId": 13,
+        "refineryId": 3,
+        "efficient": false,
+        "efficiencyBonus": null
+      },
+      {
+        "id": 48,
+        "oreId": 14,
+        "refineryId": 3,
+        "efficient": false,
+        "efficiencyBonus": null
+      },
+      {
+        "id": 49,
+        "oreId": 15,
+        "refineryId": 3,
+        "efficient": false,
+        "efficiencyBonus": -7
+      },
+      {
+        "id": 50,
+        "oreId": 16,
+        "refineryId": 3,
+        "efficient": false,
+        "efficiencyBonus": null
+      },
+      {
+        "id": 51,
+        "oreId": 17,
+        "refineryId": 3,
+        "efficient": false,
+        "efficiencyBonus": null
+      },
+      {
+        "id": 52,
+        "oreId": 1,
+        "refineryId": 4,
+        "efficient": false,
+        "efficiencyBonus": null
+      },
+      {
+        "id": 53,
+        "oreId": 2,
+        "refineryId": 4,
+        "efficient": false,
+        "efficiencyBonus": -3
+      },
+      {
+        "id": 54,
+        "oreId": 3,
+        "refineryId": 4,
+        "efficient": false,
+        "efficiencyBonus": -4
+      },
+      {
+        "id": 55,
+        "oreId": 4,
+        "refineryId": 4,
+        "efficient": true,
+        "efficiencyBonus": 4
+      },
+      {
+        "id": 56,
+        "oreId": 5,
+        "refineryId": 4,
+        "efficient": false,
+        "efficiencyBonus": null
+      },
+      {
+        "id": 57,
+        "oreId": 6,
+        "refineryId": 4,
+        "efficient": false,
+        "efficiencyBonus": null
+      },
+      {
+        "id": 58,
+        "oreId": 7,
+        "refineryId": 4,
+        "efficient": true,
+        "efficiencyBonus": 2
+      },
+      {
+        "id": 59,
+        "oreId": 8,
+        "refineryId": 4,
+        "efficient": false,
+        "efficiencyBonus": -3
+      },
+      {
+        "id": 60,
+        "oreId": 9,
+        "refineryId": 4,
+        "efficient": false,
+        "efficiencyBonus": null
+      },
+      {
+        "id": 61,
+        "oreId": 10,
+        "refineryId": 4,
+        "efficient": false,
+        "efficiencyBonus": null
+      },
+      {
+        "id": 62,
+        "oreId": 11,
+        "refineryId": 4,
+        "efficient": true,
+        "efficiencyBonus": 3
+      },
+      {
+        "id": 63,
+        "oreId": 12,
+        "refineryId": 4,
+        "efficient": false,
+        "efficiencyBonus": null
+      },
+      {
+        "id": 64,
+        "oreId": 13,
+        "refineryId": 4,
+        "efficient": false,
+        "efficiencyBonus": null
+      },
+      {
+        "id": 65,
+        "oreId": 14,
+        "refineryId": 4,
+        "efficient": false,
+        "efficiencyBonus": null
+      },
+      {
+        "id": 66,
+        "oreId": 15,
+        "refineryId": 4,
+        "efficient": false,
+        "efficiencyBonus": null
+      },
+      {
+        "id": 67,
+        "oreId": 16,
+        "refineryId": 4,
+        "efficient": true,
+        "efficiencyBonus": 2
+      },
+      {
+        "id": 68,
+        "oreId": 17,
+        "refineryId": 4,
+        "efficient": false,
+        "efficiencyBonus": null
+      },
+      {
+        "id": 69,
+        "oreId": 1,
+        "refineryId": 5,
+        "efficient": true,
+        "efficiencyBonus": 2
+      },
+      {
+        "id": 70,
+        "oreId": 2,
+        "refineryId": 5,
+        "efficient": true,
+        "efficiencyBonus": 4
+      },
+      {
+        "id": 71,
+        "oreId": 3,
+        "refineryId": 5,
+        "efficient": false,
+        "efficiencyBonus": null
+      },
+      {
+        "id": 72,
+        "oreId": 4,
+        "refineryId": 5,
+        "efficient": true,
+        "efficiencyBonus": 4
+      },
+      {
+        "id": 73,
+        "oreId": 5,
+        "refineryId": 5,
+        "efficient": true,
+        "efficiencyBonus": 4
+      },
+      {
+        "id": 74,
+        "oreId": 6,
+        "refineryId": 5,
+        "efficient": false,
+        "efficiencyBonus": null
+      },
+      {
+        "id": 75,
+        "oreId": 7,
+        "refineryId": 5,
+        "efficient": true,
+        "efficiencyBonus": 5
+      },
+      {
+        "id": 76,
+        "oreId": 8,
+        "refineryId": 5,
+        "efficient": false,
+        "efficiencyBonus": null
+      },
+      {
+        "id": 77,
+        "oreId": 9,
+        "refineryId": 5,
+        "efficient": true,
+        "efficiencyBonus": 5
+      },
+      {
+        "id": 78,
+        "oreId": 10,
+        "refineryId": 5,
+        "efficient": false,
+        "efficiencyBonus": null
+      },
+      {
+        "id": 79,
+        "oreId": 11,
+        "refineryId": 5,
+        "efficient": false,
+        "efficiencyBonus": null
+      },
+      {
+        "id": 80,
+        "oreId": 12,
+        "refineryId": 5,
+        "efficient": true,
+        "efficiencyBonus": 3
+      },
+      {
+        "id": 81,
+        "oreId": 13,
+        "refineryId": 5,
+        "efficient": false,
+        "efficiencyBonus": -3
+      },
+      {
+        "id": 82,
+        "oreId": 14,
+        "refineryId": 5,
+        "efficient": false,
+        "efficiencyBonus": null
+      },
+      {
+        "id": 83,
+        "oreId": 15,
+        "refineryId": 5,
+        "efficient": true,
+        "efficiencyBonus": 3
+      },
+      {
+        "id": 84,
+        "oreId": 16,
+        "refineryId": 5,
+        "efficient": false,
+        "efficiencyBonus": -8
+      },
+      {
+        "id": 85,
+        "oreId": 17,
+        "refineryId": 5,
+        "efficient": false,
+        "efficiencyBonus": null
+      }
     ]
   }
-
-
-
-  {
-    "id": 35,
-    "oreId": 1,
-    "refineryId": 2,
-    "efficient": true,
-    "efficiencyBonus": 3
-  },
-  {
-    "id": 36,
-    "oreId": 2,
-    "refineryId": 2,
-    "efficient": true,
-    "efficiencyBonus": 5
-  },
-  {
-    "id": 37,
-    "oreId": 3,
-    "refineryId": 2,
-    "efficient": false,
-    "efficiencyBonus": null
-  },
-  {
-    "id": 38,
-    "oreId": 4,
-    "refineryId": 2,
-    "efficient": false,
-    "efficiencyBonus": null
-  },
-  {
-    "id": 39,
-    "oreId": 5,
-    "refineryId": 2,
-    "efficient": false,
-    "efficiencyBonus": null
-  },
-  {
-    "id": 40,
-    "oreId": 6,
-    "refineryId": 2,
-    "efficient": false,
-    "efficiencyBonus": null
-  },
-  {
-    "id": 41,
-    "oreId": 7,
-    "refineryId": 2,
-    "efficient": false,
-    "efficiencyBonus": null
-  },
-  {
-    "id": 42,
-    "oreId": 8,
-    "refineryId": 2,
-    "efficient": true,
-    "efficiencyBonus": 4
-  },
-  {
-    "id": 43,
-    "oreId": 9,
-    "refineryId": 2,
-    "efficient": false,
-    "efficiencyBonus": null
-  },
-  {
-    "id": 44,
-    "oreId": 10,
-    "refineryId": 2,
-    "efficient": true,
-    "efficiencyBonus": 4
-  },
-  {
-    "id": 45,
-    "oreId": 11,
-    "refineryId": 2,
-    "efficient": false,
-    "efficiencyBonus": null
-  },
-  {
-    "id": 46,
-    "oreId": 12,
-    "refineryId": 2,
-    "efficient": false,
-    "efficiencyBonus": null
-  },
-  {
-    "id": 47,
-    "oreId": 13,
-    "refineryId": 2,
-    "efficient": true,
-    "efficiencyBonus": 2
-  },
-  {
-    "id": 48,
-    "oreId": 14,
-    "refineryId": 2,
-    "efficient": false,
-    "efficiencyBonus": -4
-  },
-  {
-    "id": 49,
-    "oreId": 15,
-    "refineryId": 2,
-    "efficient": false,
-    "efficiencyBonus": null
-  },
-  {
-    "id": 50,
-    "oreId": 16,
-    "refineryId": 2,
-    "efficient": false,
-    "efficiencyBonus": null
-  },
-  {
-    "id": 51,
-    "oreId": 17,
-    "refineryId": 2,
-    "efficient": false,
-    "efficiencyBonus": null
-}
