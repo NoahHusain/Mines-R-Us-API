@@ -1,844 +1,1073 @@
 {
-    "users": [
-      {
-        "id": 1,
-        "name": "Noah Husain",
-        "email": "noahhusain@gmail.com"
-      },
-      {
-        "id": 2,
-        "name": "Payton Husain",
-        "email": "husainpayton@gmail.com"
-      }
-    ],
-    "planets": [
-      {
-        "id": 1,
-        "system": "Stanton",
-        "name": "ArcCorp"
-      },
-      {
-        "id": 2,
-        "system": "Stanton",
-        "name": "Hurston"
-      },
-      {
-        "id": 3,
-        "system": "Stanton",
-        "name": "Crusader"
-      },
-      {
-        "id": 4,
-        "system": "Stanton",
-        "name": "Microtech"
-      }
-    ],
-    "moons": [
-      {
-        "id": 1,
-        "name": "Lyria",
-        "planetId": 1
-      },
-      {
-        "id": 2,
-        "name": "Wala",
-        "planetId": 1
-      },
-      {
-        "id": 3,
-        "name": "Ita",
-        "planetId": 2
-      },
-      {
-        "id": 4,
-        "name": "Magda",
-        "planetId": 2
-      },
-      {
-        "id": 5,
-        "name": "Aberdeen",
-        "planetId": 2
-      },
-      {
-        "id": 6,
-        "name": "Arial",
-        "planetId": 2
-      },
-      {
-        "id": 7,
-        "name": "Yela",
-        "planetId": 3
-      },
-      {
-        "id": 8,
-        "name": "Daymar",
-        "planetId": 3
-      },
-      {
-        "id": 9,
-        "name": "Cellin",
-        "planetId": 3
-      },
-      {
-        "id": 10,
-        "name": "Clio",
-        "planetId": 4
-      },
-      {
-        "id": 11,
-        "name": "Calliope",
-        "planetId": 4
-      },
-      {
-        "id": 12,
-        "name": "Euterpe",
-        "planetId": 4
-      }
-    ],
-    "ores": [
-      {
-        "id": 1,
-        "name": "Quantinium" ,
-        "rarity":"Exceddingly Rare",
-        "valueRaw": 44.04,
-        "valueRefined": 88.08
-      },
-      {
-        "id": 2,
-        "name": "Bexalite" ,
-        "rarity":"Rare",
-        "valueRaw": 20.24,
-        "valueRefined": 40.48
-      },
-      {
-        "id": 3,
-        "name": "Taranite" ,
-        "rarity":"Rare",
-        "valueRaw": 16.22,
-        "valueRefined": 32.44
-      },
-      {
-        "id": 4,
-        "name": "Borase" ,
-        "rarity":"Rare",
-        "valueRaw": 16.22,
-        "valueRefined": 32.45
-      },
-      {
-        "id": 5,
-        "name": "Laranite" ,
-        "rarity":"Rare",
-        "valueRaw": 15.12,
-        "valueRefined": 30.24
-      },
-      {
-        "id": 6,
-        "name": "Agricum" ,
-        "rarity":"Rare",
-        "valueRaw": 13.44,
-        "valueRefined": 26.88
-      },
-      {
-        "id": 7,
-        "name": "Hephaestanite" ,
-        "rarity":"Rare",
-        "valueRaw": 7.33,
-        "valueRefined": 14.66
-      },
-      {
-        "id": 8,
-        "name": "Titanium" ,
-        "rarity":"Less Common",
-        "valueRaw": 4.33,
-        "valueRefined": 8.66
-      },
-      {
-        "id": 9,
-        "name": "Diamond" ,
-        "rarity":"Less Common",
-        "valueRaw": 3.59,
-        "valueRefined": 7.18
-      },
-      {
-        "id": 10,
-        "name": "Gold" ,
-        "rarity":"Less Common",
-        "valueRaw": 3.16,
-        "valueRefined": 6.32
-      },
-      {
-        "id": 11,
-        "name": "Copper" ,
-        "rarity":"Common",
-        "valueRaw": 2.85,
-        "valueRefined": 5.70
-      },
-      {
-        "id": 12,
-        "name": "Beryl" ,
-        "rarity":"Common",
-        "valueRaw": 2.15,
-        "valueRefined": 4.30
-      },
-      {
-        "id": 13,
-        "name": "Tungsten" ,
-        "rarity":"Common",
-        "valueRaw": 2.0,
-        "valueRefined": 4.01
-      },
-      {
-        "id": 14,
-        "name": "Corundum" ,
-        "rarity":"Common",
-        "valueRaw": 1.33,
-        "valueRefined": 2.66
-      },
-      {
-        "id": 15,
-        "name": "Quartz" ,
-        "rarity":"Common",
-        "valueRaw": 0.75,
-        "valueRefined": 1.50
-      },
-      {
-        "id": 16,
-        "name": "Aluminium" ,
-        "rarity":"Common",
-        "valueRaw": 0.64,
-        "valueRefined": 1.28
-      },
-      {
-        "id": 17,
-        "name": "Inert Materials" ,
-        "rarity":"Exceedingly Common",
-        "valueRaw": 0.01,
-        "valueRefined": 0.01
-      }
-    ],
-    "refineries": [
-      {
-        "id": 1,
-        "name": "ARC-L1 Wide Forest Station" ,
-        "planetId": 1
-      },
-      {
-        "id": 2,
-        "name": "CRU-L1 Ambitious Dream Station" ,
-        "planetId": 3
-      },
-      {
-        "id": 3,
-        "name": "HUR-L1 Green Glade Station" ,
-        "planetId": 2
-      },
-      {
-        "id": 4,
-        "name":  "HUR-L2 Faithful Dream Station",
-        "planetId": 2
-      },
-      {
-        "id": 5,
-        "name": "MIC-L1 Shallow Frontier Station" ,
-        "planetId": 4
-      }
-    ],
-    "orePatches": [],
-    "oreRefineries": [
-      {
-        "id": 1,
-        "oreId": 1,
-        "refineryId": 1,
-        "efficient": false,
-        "efficiencyBonus": null
-      },
-      {
-        "id": 2,
-        "oreId": 2,
-        "refineryId": 1,
-        "efficient": false,
-        "efficiencyBonus": null
-      },
-      {
-        "id": 3,
-        "oreId": 3,
-        "refineryId": 1,
-        "efficient": true,
-        "efficiencyBonus": 3
-      },
-      {
-        "id": 4,
-        "oreId": 4,
-        "refineryId": 1,
-        "efficient": false,
-        "efficiencyBonus": -3
-      },
-      {
-        "id": 5,
-        "oreId": 5,
-        "refineryId": 1,
-        "efficient": true,
-        "efficiencyBonus": 4
-      },
-      {
-        "id": 6,
-        "oreId": 6,
-        "refineryId": 1,
-        "efficient": true,
-        "efficiencyBonus": 2
-      },
-      {
-        "id": 7,
-        "oreId": 7,
-        "refineryId": 1,
-        "efficient": false,
-        "efficiencyBonus": -2
-      },
-      {
-        "id": 8,
-        "oreId": 8,
-        "refineryId": 1,
-        "efficient": false,
-        "efficiencyBonus": null
-      },
-      {
-        "id": 9,
-        "oreId": 9,
-        "refineryId": 1,
-        "efficient": true,
-        "efficiencyBonus": 4
-      },
-      {
-        "id": 10,
-        "oreId": 10,
-        "refineryId": 1,
-        "efficient": false,
-        "efficiencyBonus": -6
-      },
-      {
-        "id": 11,
-        "oreId": 11,
-        "refineryId": 1,
-        "efficient": false,
-        "efficiencyBonus": null
-      },
-      {
-        "id": 12,
-        "oreId": 12,
-        "refineryId": 1,
-        "efficient": false,
-        "efficiencyBonus": -9
-      },
-      {
-        "id": 13,
-        "oreId": 13,
-        "refineryId": 1,
-        "efficient": false,
-        "efficiencyBonus": null
-      },
-      {
-        "id": 14,
-        "oreId": 14,
-        "refineryId": 1,
-        "efficient": true,
-        "efficiencyBonus": 2
-      },
-      {
-        "id": 15,
-        "oreId": 15,
-        "refineryId": 1,
-        "efficient": false,
-        "efficiencyBonus": null
-      },
-      {
-        "id": 16,
-        "oreId": 16,
-        "refineryId": 1,
-        "efficient": true,
-        "efficiencyBonus": 4
-      },
-      {
-        "id": 17,
-        "oreId": 17,
-        "refineryId": 1,
-        "efficient": false,
-        "efficiencyBonus": null
-      },
-      {
-        "id": 18,
-        "oreId": 1,
-        "refineryId": 2,
-        "efficient": true,
-        "efficiencyBonus": 3
-      },
-      {
-        "id": 19,
-        "oreId": 2,
-        "refineryId": 2,
-        "efficient": true,
-        "efficiencyBonus": 5
-      },
-      {
-        "id": 20,
-        "oreId": 3,
-        "refineryId": 2,
-        "efficient": false,
-        "efficiencyBonus": null
-      },
-      {
-        "id": 21,
-        "oreId": 4,
-        "refineryId": 2,
-        "efficient": false,
-        "efficiencyBonus": null
-      },
-      {
-        "id": 22,
-        "oreId": 5,
-        "refineryId": 2,
-        "efficient": false,
-        "efficiencyBonus": null
-      },
-      {
-        "id": 23,
-        "oreId": 6,
-        "refineryId": 2,
-        "efficient": false,
-        "efficiencyBonus": null
-      },
-      {
-        "id": 24,
-        "oreId": 7,
-        "refineryId": 2,
-        "efficient": false,
-        "efficiencyBonus": null
-      },
-      {
-        "id": 25,
-        "oreId": 8,
-        "refineryId": 2,
-        "efficient": true,
-        "efficiencyBonus": 4
-      },
-      {
-        "id": 26,
-        "oreId": 9,
-        "refineryId": 2,
-        "efficient": false,
-        "efficiencyBonus": null
-      },
-      {
-        "id": 27,
-        "oreId": 10,
-        "refineryId": 2,
-        "efficient": true,
-        "efficiencyBonus": 4
-      },
-      {
-        "id": 28,
-        "oreId": 11,
-        "refineryId": 2,
-        "efficient": false,
-        "efficiencyBonus": null
-      },
-      {
-        "id": 29,
-        "oreId": 12,
-        "refineryId": 2,
-        "efficient": false,
-        "efficiencyBonus": null
-      },
-      {
-        "id": 30,
-        "oreId": 13,
-        "refineryId": 2,
-        "efficient": true,
-        "efficiencyBonus": 2
-      },
-      {
-        "id": 31,
-        "oreId": 14,
-        "refineryId": 2,
-        "efficient": false,
-        "efficiencyBonus": -4
-      },
-      {
-        "id": 32,
-        "oreId": 15,
-        "refineryId": 2,
-        "efficient": false,
-        "efficiencyBonus": null
-      },
-      {
-        "id": 33,
-        "oreId": 16,
-        "refineryId": 2,
-        "efficient": false,
-        "efficiencyBonus": null
-      },
-      {
-        "id": 34,
-        "oreId": 17,
-        "refineryId": 2,
-        "efficient": false,
-        "efficiencyBonus": null
-      },
-      {
-        "id": 35,
-        "oreId": 1,
-        "refineryId": 3,
-        "efficient": false,
-        "efficiencyBonus": -6
-      },
-      {
-        "id": 36,
-        "oreId": 2,
-        "refineryId": 3,
-        "efficient": false,
-        "efficiencyBonus": null
-      },
-      {
-        "id": 37,
-        "oreId": 3,
-        "refineryId": 3,
-        "efficient": false,
-        "efficiencyBonus": null
-      },
-      {
-        "id": 38,
-        "oreId": 4,
-        "refineryId": 3,
-        "efficient": false,
-        "efficiencyBonus": null
-      },
-      {
-        "id": 39,
-        "oreId": 5,
-        "refineryId": 3,
-        "efficient": true,
-        "efficiencyBonus": 4
-      },
-      {
-        "id": 40,
-        "oreId": 6,
-        "refineryId": 3,
-        "efficient": true,
-        "efficiencyBonus": 3
-      },
-      {
-        "id": 41,
-        "oreId": 7,
-        "refineryId": 3,
-        "efficient": false,
-        "efficiencyBonus": null
-      },
-      {
-        "id": 42,
-        "oreId": 8,
-        "refineryId": 3,
-        "efficient": true,
-        "efficiencyBonus": 2
-      },
-      {
-        "id": 43,
-        "oreId": 9,
-        "refineryId": 3,
-        "efficient": false,
-        "efficiencyBonus": null
-      },
-      {
-        "id": 44,
-        "oreId": 10,
-        "refineryId": 3,
-        "efficient": false,
-        "efficiencyBonus": null
-      },
-      {
-        "id": 45,
-        "oreId": 11,
-        "refineryId": 3,
-        "efficient": true,
-        "efficiencyBonus": 10
-      },
-      {
-        "id": 46,
-        "oreId": 12,
-        "refineryId": 3,
-        "efficient": true,
-        "efficiencyBonus": 3
-      },
-      {
-        "id": 47,
-        "oreId": 13,
-        "refineryId": 3,
-        "efficient": false,
-        "efficiencyBonus": null
-      },
-      {
-        "id": 48,
-        "oreId": 14,
-        "refineryId": 3,
-        "efficient": false,
-        "efficiencyBonus": null
-      },
-      {
-        "id": 49,
-        "oreId": 15,
-        "refineryId": 3,
-        "efficient": false,
-        "efficiencyBonus": -7
-      },
-      {
-        "id": 50,
-        "oreId": 16,
-        "refineryId": 3,
-        "efficient": false,
-        "efficiencyBonus": null
-      },
-      {
-        "id": 51,
-        "oreId": 17,
-        "refineryId": 3,
-        "efficient": false,
-        "efficiencyBonus": null
-      },
-      {
-        "id": 52,
-        "oreId": 1,
-        "refineryId": 4,
-        "efficient": false,
-        "efficiencyBonus": null
-      },
-      {
-        "id": 53,
-        "oreId": 2,
-        "refineryId": 4,
-        "efficient": false,
-        "efficiencyBonus": -3
-      },
-      {
-        "id": 54,
-        "oreId": 3,
-        "refineryId": 4,
-        "efficient": false,
-        "efficiencyBonus": -4
-      },
-      {
-        "id": 55,
-        "oreId": 4,
-        "refineryId": 4,
-        "efficient": true,
-        "efficiencyBonus": 4
-      },
-      {
-        "id": 56,
-        "oreId": 5,
-        "refineryId": 4,
-        "efficient": false,
-        "efficiencyBonus": null
-      },
-      {
-        "id": 57,
-        "oreId": 6,
-        "refineryId": 4,
-        "efficient": false,
-        "efficiencyBonus": null
-      },
-      {
-        "id": 58,
-        "oreId": 7,
-        "refineryId": 4,
-        "efficient": true,
-        "efficiencyBonus": 2
-      },
-      {
-        "id": 59,
-        "oreId": 8,
-        "refineryId": 4,
-        "efficient": false,
-        "efficiencyBonus": -3
-      },
-      {
-        "id": 60,
-        "oreId": 9,
-        "refineryId": 4,
-        "efficient": false,
-        "efficiencyBonus": null
-      },
-      {
-        "id": 61,
-        "oreId": 10,
-        "refineryId": 4,
-        "efficient": false,
-        "efficiencyBonus": null
-      },
-      {
-        "id": 62,
-        "oreId": 11,
-        "refineryId": 4,
-        "efficient": true,
-        "efficiencyBonus": 3
-      },
-      {
-        "id": 63,
-        "oreId": 12,
-        "refineryId": 4,
-        "efficient": false,
-        "efficiencyBonus": null
-      },
-      {
-        "id": 64,
-        "oreId": 13,
-        "refineryId": 4,
-        "efficient": false,
-        "efficiencyBonus": null
-      },
-      {
-        "id": 65,
-        "oreId": 14,
-        "refineryId": 4,
-        "efficient": false,
-        "efficiencyBonus": null
-      },
-      {
-        "id": 66,
-        "oreId": 15,
-        "refineryId": 4,
-        "efficient": false,
-        "efficiencyBonus": null
-      },
-      {
-        "id": 67,
-        "oreId": 16,
-        "refineryId": 4,
-        "efficient": true,
-        "efficiencyBonus": 2
-      },
-      {
-        "id": 68,
-        "oreId": 17,
-        "refineryId": 4,
-        "efficient": false,
-        "efficiencyBonus": null
-      },
-      {
-        "id": 69,
-        "oreId": 1,
-        "refineryId": 5,
-        "efficient": true,
-        "efficiencyBonus": 2
-      },
-      {
-        "id": 70,
-        "oreId": 2,
-        "refineryId": 5,
-        "efficient": true,
-        "efficiencyBonus": 4
-      },
-      {
-        "id": 71,
-        "oreId": 3,
-        "refineryId": 5,
-        "efficient": false,
-        "efficiencyBonus": null
-      },
-      {
-        "id": 72,
-        "oreId": 4,
-        "refineryId": 5,
-        "efficient": true,
-        "efficiencyBonus": 4
-      },
-      {
-        "id": 73,
-        "oreId": 5,
-        "refineryId": 5,
-        "efficient": true,
-        "efficiencyBonus": 4
-      },
-      {
-        "id": 74,
-        "oreId": 6,
-        "refineryId": 5,
-        "efficient": false,
-        "efficiencyBonus": null
-      },
-      {
-        "id": 75,
-        "oreId": 7,
-        "refineryId": 5,
-        "efficient": true,
-        "efficiencyBonus": 5
-      },
-      {
-        "id": 76,
-        "oreId": 8,
-        "refineryId": 5,
-        "efficient": false,
-        "efficiencyBonus": null
-      },
-      {
-        "id": 77,
-        "oreId": 9,
-        "refineryId": 5,
-        "efficient": true,
-        "efficiencyBonus": 5
-      },
-      {
-        "id": 78,
-        "oreId": 10,
-        "refineryId": 5,
-        "efficient": false,
-        "efficiencyBonus": null
-      },
-      {
-        "id": 79,
-        "oreId": 11,
-        "refineryId": 5,
-        "efficient": false,
-        "efficiencyBonus": null
-      },
-      {
-        "id": 80,
-        "oreId": 12,
-        "refineryId": 5,
-        "efficient": true,
-        "efficiencyBonus": 3
-      },
-      {
-        "id": 81,
-        "oreId": 13,
-        "refineryId": 5,
-        "efficient": false,
-        "efficiencyBonus": -3
-      },
-      {
-        "id": 82,
-        "oreId": 14,
-        "refineryId": 5,
-        "efficient": false,
-        "efficiencyBonus": null
-      },
-      {
-        "id": 83,
-        "oreId": 15,
-        "refineryId": 5,
-        "efficient": true,
-        "efficiencyBonus": 3
-      },
-      {
-        "id": 84,
-        "oreId": 16,
-        "refineryId": 5,
-        "efficient": false,
-        "efficiencyBonus": -8
-      },
-      {
-        "id": 85,
-        "oreId": 17,
-        "refineryId": 5,
-        "efficient": false,
-        "efficiencyBonus": null
-      }
-    ]
-  }
+  "users": [
+    {
+      "id": 1,
+      "name": "Noah Husain",
+      "email": "noahhusain@gmail.com"
+    },
+    {
+      "id": 2,
+      "name": "Payton Husain",
+      "email": "husainpayton@gmail.com"
+    },
+    {
+      "name": "Aubrey Husain",
+      "email": "aubreyponomarenko@gmail.com",
+      "id": 3
+    },
+    {
+      "name": "Monica Provence",
+      "email": "monica@nss.com",
+      "id": 4
+    }
+  ],
+  "planets": [
+    {
+      "id": 1,
+      "system": "Stanton",
+      "name": "ArcCorp"
+    },
+    {
+      "id": 2,
+      "system": "Stanton",
+      "name": "Hurston"
+    },
+    {
+      "id": 3,
+      "system": "Stanton",
+      "name": "Crusader"
+    },
+    {
+      "id": 4,
+      "system": "Stanton",
+      "name": "Microtech"
+    }
+  ],
+  "moons": [
+    {
+      "id": 1,
+      "name": "Lyria",
+      "planetId": 1
+    },
+    {
+      "id": 2,
+      "name": "Wala",
+      "planetId": 1
+    },
+    {
+      "id": 3,
+      "name": "Ita",
+      "planetId": 2
+    },
+    {
+      "id": 4,
+      "name": "Magda",
+      "planetId": 2
+    },
+    {
+      "id": 5,
+      "name": "Aberdeen",
+      "planetId": 2
+    },
+    {
+      "id": 6,
+      "name": "Arial",
+      "planetId": 2
+    },
+    {
+      "id": 7,
+      "name": "Yela",
+      "planetId": 3
+    },
+    {
+      "id": 8,
+      "name": "Daymar",
+      "planetId": 3
+    },
+    {
+      "id": 9,
+      "name": "Cellin",
+      "planetId": 3
+    },
+    {
+      "id": 10,
+      "name": "Clio",
+      "planetId": 4
+    },
+    {
+      "id": 11,
+      "name": "Calliope",
+      "planetId": 4
+    },
+    {
+      "id": 12,
+      "name": "Euterpe",
+      "planetId": 4
+    }
+  ],
+  "ores": [
+    {
+      "id": 1,
+      "name": "Quantinium",
+      "rarity": "Exceedingly Rare",
+      "valueRaw": 44.04,
+      "valueRefined": 88.08
+    },
+    {
+      "id": 2,
+      "name": "Bexalite",
+      "rarity": "Rare",
+      "valueRaw": 20.24,
+      "valueRefined": 40.48
+    },
+    {
+      "id": 3,
+      "name": "Taranite",
+      "rarity": "Rare",
+      "valueRaw": 16.22,
+      "valueRefined": 32.44
+    },
+    {
+      "id": 4,
+      "name": "Borase",
+      "rarity": "Rare",
+      "valueRaw": 16.22,
+      "valueRefined": 32.45
+    },
+    {
+      "id": 5,
+      "name": "Laranite",
+      "rarity": "Rare",
+      "valueRaw": 15.12,
+      "valueRefined": 30.24
+    },
+    {
+      "id": 6,
+      "name": "Agricum",
+      "rarity": "Rare",
+      "valueRaw": 13.44,
+      "valueRefined": 26.88
+    },
+    {
+      "id": 7,
+      "name": "Hephaestanite",
+      "rarity": "Rare",
+      "valueRaw": 7.33,
+      "valueRefined": 14.66
+    },
+    {
+      "id": 8,
+      "name": "Titanium",
+      "rarity": "Less Common",
+      "valueRaw": 4.33,
+      "valueRefined": 8.66
+    },
+    {
+      "id": 9,
+      "name": "Diamond",
+      "rarity": "Less Common",
+      "valueRaw": 3.59,
+      "valueRefined": 7.18
+    },
+    {
+      "id": 10,
+      "name": "Gold",
+      "rarity": "Less Common",
+      "valueRaw": 3.16,
+      "valueRefined": 6.32
+    },
+    {
+      "id": 11,
+      "name": "Copper",
+      "rarity": "Common",
+      "valueRaw": 2.85,
+      "valueRefined": 5.7
+    },
+    {
+      "id": 12,
+      "name": "Beryl",
+      "rarity": "Common",
+      "valueRaw": 2.15,
+      "valueRefined": 4.3
+    },
+    {
+      "id": 13,
+      "name": "Tungsten",
+      "rarity": "Common",
+      "valueRaw": 2,
+      "valueRefined": 4.01
+    },
+    {
+      "id": 14,
+      "name": "Corundum",
+      "rarity": "Common",
+      "valueRaw": 1.33,
+      "valueRefined": 2.66
+    },
+    {
+      "id": 15,
+      "name": "Quartz",
+      "rarity": "Common",
+      "valueRaw": 0.75,
+      "valueRefined": 1.5
+    },
+    {
+      "id": 16,
+      "name": "Aluminium",
+      "rarity": "Common",
+      "valueRaw": 0.64,
+      "valueRefined": 1.28
+    },
+    {
+      "id": 17,
+      "name": "Inert Materials",
+      "rarity": "Exceedingly Common",
+      "valueRaw": 0.01,
+      "valueRefined": 0.01
+    }
+  ],
+  "refineries": [
+    {
+      "id": 1,
+      "name": "ARC-L1 Wide Forest Station",
+      "planetId": 1
+    },
+    {
+      "id": 2,
+      "name": "CRU-L1 Ambitious Dream Station",
+      "planetId": 3
+    },
+    {
+      "id": 3,
+      "name": "HUR-L1 Green Glade Station",
+      "planetId": 2
+    },
+    {
+      "id": 4,
+      "name": "HUR-L2 Faithful Dream Station",
+      "planetId": 2
+    },
+    {
+      "id": 5,
+      "name": "MIC-L1 Shallow Frontier Station",
+      "planetId": 4
+    }
+  ],
+  "orePatches": [
+    {
+      "id": 6,
+      "userId": 1,
+      "oreId": 5,
+      "planetId": 3,
+      "moonId": 7,
+      "landingPoint": "OM-6",
+      "description": "Found laranite hotspot near Om-6. Head straight down from orbit.",
+      "rockData": "3400Kg @ 40%",
+      "timestamp": "2021-06-17"
+    },
+    {
+      "userId": 3,
+      "oreId": 1,
+      "planetId": 4,
+      "moonId": 11,
+      "landingPoint": "New Babbage",
+      "description": "Found lots of quant rocks NW of new babbage. 20km.",
+      "rockData": "8119Kg @ 40%",
+      "timestamp": "2021-06-24",
+      "id": 9
+    },
+    {
+      "userId": 2,
+      "oreId": 9,
+      "planetId": 3,
+      "moonId": 8,
+      "landingPoint": "Ceree Hydroponics ",
+      "description": "Found scattered rocks containing high amount of diamonds. Head 5KM east of the landing point and scan the mountains for rocks.",
+      "rockData": "5000Kg @ 50% yield",
+      "timestamp": "2021-07-03",
+      "id": 10
+    },
+    {
+      "userId": 4,
+      "oreId": 2,
+      "planetId": 4,
+      "moonId": 11,
+      "landingPoint": "Shubin Mining Facility SPMC-3",
+      "description": "Found hotspot of Bexalite 10km south of Shubin SPMC-3. High yield of laranite scattered in some rocks as well.",
+      "rockData": "7200Kg @ 25% yield",
+      "timestamp": "2021-07-03",
+      "id": 11
+    }
+  ],
+  "oreRefineries": [
+    {
+      "id": 1,
+      "oreId": 1,
+      "refineryId": 1,
+      "efficient": false,
+      "efficiencyBonus": null
+    },
+    {
+      "id": 2,
+      "oreId": 2,
+      "refineryId": 1,
+      "efficient": false,
+      "efficiencyBonus": null
+    },
+    {
+      "id": 3,
+      "oreId": 3,
+      "refineryId": 1,
+      "efficient": true,
+      "efficiencyBonus": 3
+    },
+    {
+      "id": 4,
+      "oreId": 4,
+      "refineryId": 1,
+      "efficient": false,
+      "efficiencyBonus": -3
+    },
+    {
+      "id": 5,
+      "oreId": 5,
+      "refineryId": 1,
+      "efficient": true,
+      "efficiencyBonus": 4
+    },
+    {
+      "id": 6,
+      "oreId": 6,
+      "refineryId": 1,
+      "efficient": true,
+      "efficiencyBonus": 2
+    },
+    {
+      "id": 7,
+      "oreId": 7,
+      "refineryId": 1,
+      "efficient": false,
+      "efficiencyBonus": -2
+    },
+    {
+      "id": 8,
+      "oreId": 8,
+      "refineryId": 1,
+      "efficient": false,
+      "efficiencyBonus": null
+    },
+    {
+      "id": 9,
+      "oreId": 9,
+      "refineryId": 1,
+      "efficient": true,
+      "efficiencyBonus": 4
+    },
+    {
+      "id": 10,
+      "oreId": 10,
+      "refineryId": 1,
+      "efficient": false,
+      "efficiencyBonus": -6
+    },
+    {
+      "id": 11,
+      "oreId": 11,
+      "refineryId": 1,
+      "efficient": false,
+      "efficiencyBonus": null
+    },
+    {
+      "id": 12,
+      "oreId": 12,
+      "refineryId": 1,
+      "efficient": false,
+      "efficiencyBonus": -9
+    },
+    {
+      "id": 13,
+      "oreId": 13,
+      "refineryId": 1,
+      "efficient": false,
+      "efficiencyBonus": null
+    },
+    {
+      "id": 14,
+      "oreId": 14,
+      "refineryId": 1,
+      "efficient": true,
+      "efficiencyBonus": 2
+    },
+    {
+      "id": 15,
+      "oreId": 15,
+      "refineryId": 1,
+      "efficient": false,
+      "efficiencyBonus": null
+    },
+    {
+      "id": 16,
+      "oreId": 16,
+      "refineryId": 1,
+      "efficient": true,
+      "efficiencyBonus": 4
+    },
+    {
+      "id": 17,
+      "oreId": 17,
+      "refineryId": 1,
+      "efficient": false,
+      "efficiencyBonus": null
+    },
+    {
+      "id": 18,
+      "oreId": 1,
+      "refineryId": 2,
+      "efficient": true,
+      "efficiencyBonus": 3
+    },
+    {
+      "id": 19,
+      "oreId": 2,
+      "refineryId": 2,
+      "efficient": true,
+      "efficiencyBonus": 5
+    },
+    {
+      "id": 20,
+      "oreId": 3,
+      "refineryId": 2,
+      "efficient": false,
+      "efficiencyBonus": null
+    },
+    {
+      "id": 21,
+      "oreId": 4,
+      "refineryId": 2,
+      "efficient": false,
+      "efficiencyBonus": null
+    },
+    {
+      "id": 22,
+      "oreId": 5,
+      "refineryId": 2,
+      "efficient": false,
+      "efficiencyBonus": null
+    },
+    {
+      "id": 23,
+      "oreId": 6,
+      "refineryId": 2,
+      "efficient": false,
+      "efficiencyBonus": null
+    },
+    {
+      "id": 24,
+      "oreId": 7,
+      "refineryId": 2,
+      "efficient": false,
+      "efficiencyBonus": null
+    },
+    {
+      "id": 25,
+      "oreId": 8,
+      "refineryId": 2,
+      "efficient": true,
+      "efficiencyBonus": 4
+    },
+    {
+      "id": 26,
+      "oreId": 9,
+      "refineryId": 2,
+      "efficient": false,
+      "efficiencyBonus": null
+    },
+    {
+      "id": 27,
+      "oreId": 10,
+      "refineryId": 2,
+      "efficient": true,
+      "efficiencyBonus": 4
+    },
+    {
+      "id": 28,
+      "oreId": 11,
+      "refineryId": 2,
+      "efficient": false,
+      "efficiencyBonus": null
+    },
+    {
+      "id": 29,
+      "oreId": 12,
+      "refineryId": 2,
+      "efficient": false,
+      "efficiencyBonus": null
+    },
+    {
+      "id": 30,
+      "oreId": 13,
+      "refineryId": 2,
+      "efficient": true,
+      "efficiencyBonus": 2
+    },
+    {
+      "id": 31,
+      "oreId": 14,
+      "refineryId": 2,
+      "efficient": false,
+      "efficiencyBonus": -4
+    },
+    {
+      "id": 32,
+      "oreId": 15,
+      "refineryId": 2,
+      "efficient": false,
+      "efficiencyBonus": null
+    },
+    {
+      "id": 33,
+      "oreId": 16,
+      "refineryId": 2,
+      "efficient": false,
+      "efficiencyBonus": null
+    },
+    {
+      "id": 34,
+      "oreId": 17,
+      "refineryId": 2,
+      "efficient": false,
+      "efficiencyBonus": null
+    },
+    {
+      "id": 35,
+      "oreId": 1,
+      "refineryId": 3,
+      "efficient": false,
+      "efficiencyBonus": -6
+    },
+    {
+      "id": 36,
+      "oreId": 2,
+      "refineryId": 3,
+      "efficient": false,
+      "efficiencyBonus": null
+    },
+    {
+      "id": 37,
+      "oreId": 3,
+      "refineryId": 3,
+      "efficient": false,
+      "efficiencyBonus": null
+    },
+    {
+      "id": 38,
+      "oreId": 4,
+      "refineryId": 3,
+      "efficient": false,
+      "efficiencyBonus": null
+    },
+    {
+      "id": 39,
+      "oreId": 5,
+      "refineryId": 3,
+      "efficient": true,
+      "efficiencyBonus": 4
+    },
+    {
+      "id": 40,
+      "oreId": 6,
+      "refineryId": 3,
+      "efficient": true,
+      "efficiencyBonus": 3
+    },
+    {
+      "id": 41,
+      "oreId": 7,
+      "refineryId": 3,
+      "efficient": false,
+      "efficiencyBonus": null
+    },
+    {
+      "id": 42,
+      "oreId": 8,
+      "refineryId": 3,
+      "efficient": true,
+      "efficiencyBonus": 2
+    },
+    {
+      "id": 43,
+      "oreId": 9,
+      "refineryId": 3,
+      "efficient": false,
+      "efficiencyBonus": null
+    },
+    {
+      "id": 44,
+      "oreId": 10,
+      "refineryId": 3,
+      "efficient": false,
+      "efficiencyBonus": null
+    },
+    {
+      "id": 45,
+      "oreId": 11,
+      "refineryId": 3,
+      "efficient": true,
+      "efficiencyBonus": 10
+    },
+    {
+      "id": 46,
+      "oreId": 12,
+      "refineryId": 3,
+      "efficient": true,
+      "efficiencyBonus": 3
+    },
+    {
+      "id": 47,
+      "oreId": 13,
+      "refineryId": 3,
+      "efficient": false,
+      "efficiencyBonus": null
+    },
+    {
+      "id": 48,
+      "oreId": 14,
+      "refineryId": 3,
+      "efficient": false,
+      "efficiencyBonus": null
+    },
+    {
+      "id": 49,
+      "oreId": 15,
+      "refineryId": 3,
+      "efficient": false,
+      "efficiencyBonus": -7
+    },
+    {
+      "id": 50,
+      "oreId": 16,
+      "refineryId": 3,
+      "efficient": false,
+      "efficiencyBonus": null
+    },
+    {
+      "id": 51,
+      "oreId": 17,
+      "refineryId": 3,
+      "efficient": false,
+      "efficiencyBonus": null
+    },
+    {
+      "id": 52,
+      "oreId": 1,
+      "refineryId": 4,
+      "efficient": false,
+      "efficiencyBonus": null
+    },
+    {
+      "id": 53,
+      "oreId": 2,
+      "refineryId": 4,
+      "efficient": false,
+      "efficiencyBonus": -3
+    },
+    {
+      "id": 54,
+      "oreId": 3,
+      "refineryId": 4,
+      "efficient": false,
+      "efficiencyBonus": -4
+    },
+    {
+      "id": 55,
+      "oreId": 4,
+      "refineryId": 4,
+      "efficient": true,
+      "efficiencyBonus": 4
+    },
+    {
+      "id": 56,
+      "oreId": 5,
+      "refineryId": 4,
+      "efficient": false,
+      "efficiencyBonus": null
+    },
+    {
+      "id": 57,
+      "oreId": 6,
+      "refineryId": 4,
+      "efficient": false,
+      "efficiencyBonus": null
+    },
+    {
+      "id": 58,
+      "oreId": 7,
+      "refineryId": 4,
+      "efficient": true,
+      "efficiencyBonus": 2
+    },
+    {
+      "id": 59,
+      "oreId": 8,
+      "refineryId": 4,
+      "efficient": false,
+      "efficiencyBonus": -3
+    },
+    {
+      "id": 60,
+      "oreId": 9,
+      "refineryId": 4,
+      "efficient": false,
+      "efficiencyBonus": null
+    },
+    {
+      "id": 61,
+      "oreId": 10,
+      "refineryId": 4,
+      "efficient": false,
+      "efficiencyBonus": null
+    },
+    {
+      "id": 62,
+      "oreId": 11,
+      "refineryId": 4,
+      "efficient": true,
+      "efficiencyBonus": 3
+    },
+    {
+      "id": 63,
+      "oreId": 12,
+      "refineryId": 4,
+      "efficient": false,
+      "efficiencyBonus": null
+    },
+    {
+      "id": 64,
+      "oreId": 13,
+      "refineryId": 4,
+      "efficient": false,
+      "efficiencyBonus": null
+    },
+    {
+      "id": 65,
+      "oreId": 14,
+      "refineryId": 4,
+      "efficient": false,
+      "efficiencyBonus": null
+    },
+    {
+      "id": 66,
+      "oreId": 15,
+      "refineryId": 4,
+      "efficient": false,
+      "efficiencyBonus": null
+    },
+    {
+      "id": 67,
+      "oreId": 16,
+      "refineryId": 4,
+      "efficient": true,
+      "efficiencyBonus": 2
+    },
+    {
+      "id": 68,
+      "oreId": 17,
+      "refineryId": 4,
+      "efficient": false,
+      "efficiencyBonus": null
+    },
+    {
+      "id": 69,
+      "oreId": 1,
+      "refineryId": 5,
+      "efficient": true,
+      "efficiencyBonus": 2
+    },
+    {
+      "id": 70,
+      "oreId": 2,
+      "refineryId": 5,
+      "efficient": true,
+      "efficiencyBonus": 4
+    },
+    {
+      "id": 71,
+      "oreId": 3,
+      "refineryId": 5,
+      "efficient": false,
+      "efficiencyBonus": null
+    },
+    {
+      "id": 72,
+      "oreId": 4,
+      "refineryId": 5,
+      "efficient": true,
+      "efficiencyBonus": 4
+    },
+    {
+      "id": 73,
+      "oreId": 5,
+      "refineryId": 5,
+      "efficient": true,
+      "efficiencyBonus": 4
+    },
+    {
+      "id": 74,
+      "oreId": 6,
+      "refineryId": 5,
+      "efficient": false,
+      "efficiencyBonus": null
+    },
+    {
+      "id": 75,
+      "oreId": 7,
+      "refineryId": 5,
+      "efficient": true,
+      "efficiencyBonus": 5
+    },
+    {
+      "id": 76,
+      "oreId": 8,
+      "refineryId": 5,
+      "efficient": false,
+      "efficiencyBonus": null
+    },
+    {
+      "id": 77,
+      "oreId": 9,
+      "refineryId": 5,
+      "efficient": true,
+      "efficiencyBonus": 5
+    },
+    {
+      "id": 78,
+      "oreId": 10,
+      "refineryId": 5,
+      "efficient": false,
+      "efficiencyBonus": null
+    },
+    {
+      "id": 79,
+      "oreId": 11,
+      "refineryId": 5,
+      "efficient": false,
+      "efficiencyBonus": null
+    },
+    {
+      "id": 80,
+      "oreId": 12,
+      "refineryId": 5,
+      "efficient": true,
+      "efficiencyBonus": 3
+    },
+    {
+      "id": 81,
+      "oreId": 13,
+      "refineryId": 5,
+      "efficient": false,
+      "efficiencyBonus": -3
+    },
+    {
+      "id": 82,
+      "oreId": 14,
+      "refineryId": 5,
+      "efficient": false,
+      "efficiencyBonus": null
+    },
+    {
+      "id": 83,
+      "oreId": 15,
+      "refineryId": 5,
+      "efficient": true,
+      "efficiencyBonus": 3
+    },
+    {
+      "id": 84,
+      "oreId": 16,
+      "refineryId": 5,
+      "efficient": false,
+      "efficiencyBonus": -8
+    },
+    {
+      "id": 85,
+      "oreId": 17,
+      "refineryId": 5,
+      "efficient": false,
+      "efficiencyBonus": null
+    }
+  ],
+  "ships": [
+    {
+      "id": 1,
+      "manufacturer": "Musashi Industrial & Starflight Concern",
+      "name": "Prospector",
+      "role": "Mining",
+      "price": 2061000,
+      "cargoCapacity": 32,
+      "img": "https://media.robertsspaceindustries.com/1rjwfi2wnqx35/store_slideshow_small.jpg",
+      "description": "For years, the Prospector has been the universe’s preferred mining vessel for solo operators. Featuring MISC’s sleek design sensibility and a bevy of upgraded high-tech mining tools, the 2947 Prospector perfectly balances form and functionality."
+    },
+    {
+      "id": 2,
+      "manufacturer": "ARGO Astronautics",
+      "name": "Mole",
+      "role": "Multi-crew Mining",
+      "price": 5130500,
+      "cargoCapacity": 96,
+      "img": "https://media.robertsspaceindustries.com/r7t5ke4l3svvv/store_large.jpg",
+      "description": "ARGO’s pragmatic no-nonsense approach to ship design is celebrated in the unmistakable silhouette of the MOLE. Just one look at this machine and you know it means business. Tap into your full potential with the combined force of ARGO’s patented trilateral mining system. The MOLE has a total of 24 mineral pods, each holding 12 SCU. Eight pods are usable at one time – when they’re full, either head home or jettison them for collection by another vessel and carry on mining. Three independently controlled articulated extraction stations allow for maximum power and near-limitless versatility. The MOLE lives by the adage ’many hands make for light work’."
+    }
+  ],
+  "miningLasers": [
+    {
+      "id": 1,
+      "img": "https://starcitizen.tools/images/thumb/9/93/Placeholderv2.png/400px-Placeholderv2.png",
+      "manufacturer": "Greycat Industrial",
+      "name": "Arbor MH 1",
+      "price": 14500,
+      "powerOutput": 1850,
+      "rangeOptimal": 30,
+      "rangeMax": 150,
+      "optimalWindowSize": 0,
+      "instability": 0,
+      "resistance": 0,
+      "consumables": 1
+    },
+    {
+      "id": 2,
+      "img": "https://starcitizen.tools/images/thumb/a/ad/Lancet_MH1_-_Terminal_Display_-_3.10.2.png/400px-Lancet_MH1_-_Terminal_Display_-_3.10.2.png",
+      "manufacturer": "Greycat Industrial",
+      "name": "Lancet MH 1",
+      "price": 23500,
+      "powerOutput": 1400,
+      "rangeOptimal": 30,
+      "rangeMax": 150,
+      "optimalWindowSize": 40,
+      "instability": -75,
+      "resistance": -75,
+      "consumables": 3
+    },
+    {
+      "id": 3,
+      "img": "https://starcitizen.tools/images/thumb/2/20/Helix_I_-_Terminal_Display_-_3.10.2.png/400px-Helix_I_-_Terminal_Display_-_3.10.2.png",
+      "manufacturer": "Thermyte Concern",
+      "name": "Helix 1",
+      "price": 108000,
+      "powerOutput": 2300,
+      "rangeOptimal": 37.5,
+      "rangeMax": 187.5,
+      "optimalWindowSize": 15,
+      "instability": -30,
+      "resistance": -10,
+      "consumables": 3
+    },
+    {
+      "id": 4,
+      "img": "https://starcitizen.tools/images/thumb/d/dc/Impact-S1_-_Terminal_Display_-_3.10.2.png/400px-Impact-S1_-_Terminal_Display_-_3.10.2.png",
+      "manufacturer": "Thermyte Concern",
+      "name": "Impact 1",
+      "price": 57750,
+      "powerOutput": 3000,
+      "rangeOptimal": 30,
+      "rangeMax": 150,
+      "optimalWindowSize": 30,
+      "instability": 10,
+      "resistance": -25,
+      "consumables": 3
+    },
+    {
+      "id": 5,
+      "img": "https://starcitizen.tools/images/thumb/f/f5/Hofstede-S2_-_Terminal_Display_-_3.10.2.png/400px-Hofstede-S2_-_Terminal_Display_-_3.10.2.png",
+      "manufacturer": "Shubin Interstellar",
+      "name": "Hofstede-S1",
+      "price": 12750,
+      "powerOutput": 2000,
+      "rangeOptimal": 15,
+      "rangeMax": 75,
+      "optimalWindowSize": 10,
+      "instability": -30,
+      "resistance": -10,
+      "consumables": 2
+    },
+    {
+      "id": 6,
+      "img": "https://starcitizen.tools/images/d/d3/Klein-S1_-_Terminal_Display_-_3.10.2.png",
+      "manufacturer": "Shubin Interstellar",
+      "name": "Klein-S1",
+      "price": 10150,
+      "powerOutput": 1800,
+      "rangeOptimal": 30,
+      "rangeMax": 150,
+      "optimalWindowSize": 15,
+      "instability": 20,
+      "resistance": -20,
+      "consumables": 2
+    }
+  ],
+  "consumables": [
+    {
+      "id": 1,
+      "img": "https://starcitizen.tools/images/7/79/MiningConsumable-MISC-Brandt.jpg",
+      "manufacturer": "Greycat Industrial",
+      "name": "Brandt",
+      "price": 2250,
+      "charges": 5
+    },
+    {
+      "id": 2,
+      "img": "https://starcitizen.tools/images/a/a2/MiningConsumable-MISC-Forel.jpg",
+      "manufacturer": "Shubin Interstellar",
+      "name": "Forel",
+      "price": 1950,
+      "charges": 5
+    },
+    {
+      "id": 3,
+      "img": "https://starcitizen.tools/images/c/c1/MiningConsumable-MISC-Lifeline.jpg",
+      "manufacturer": "Musashi Starflight & Industrial Concern",
+      "name": "Lifeline",
+      "price": 800,
+      "charges": 5
+    },
+    {
+      "id": 4,
+      "img": "https://starcitizen.tools/images/0/0e/MiningConsumable-MISC-Optimum.jpg",
+      "manufacturer": "Musashi Starflight & Industrial Concern",
+      "name": "Optimum",
+      "price": 3000,
+      "charges": 5
+    },
+    {
+      "id": 5,
+      "img": "https://starcitizen.tools/images/2/20/MiningConsumable-MISC-Rime.jpg",
+      "manufacturer": "Musashi Starflight & Industrial Concern",
+      "name": "Rime",
+      "price": 1100,
+      "charges": 5
+    },
+    {
+      "id": 6,
+      "img": "https://starcitizen.tools/images/4/4e/MiningConsumable-MISC-Stampede.jpg",
+      "manufacturer": "Musashi Starflight & Industrial Concern",
+      "name": "Stampede",
+      "price": 1400,
+      "charges": 5
+    },
+    {
+      "id": 7,
+      "img": "https://starcitizen.tools/images/1/1c/MiningConsumable-MISC-Surge.jpg",
+      "manufacturer": "Musashi Starflight & Industrial Concern",
+      "name": "Surge",
+      "price": 1400,
+      "charges": 5
+    },
+    {
+      "id": 8,
+      "img": "https://starcitizen.tools/images/8/8a/MiningConsumable-MISC-Torpid.jpg",
+      "manufacturer": "Musashi Starflight & Industrial Concern",
+      "name": "Torpid",
+      "price": 1950,
+      "charges": 5
+    }
+  ]
+}
