@@ -19,6 +19,11 @@
       "name": "Monica Provence",
       "email": "monica@nss.com",
       "id": 4
+    },
+    {
+      "name": "Admin Adminson",
+      "email": "Admin@gmail.com",
+      "id": 5
     }
   ],
   "planets": [
@@ -254,17 +259,6 @@
     }
   ],
   "orePatches": [
-    {
-      "id": 6,
-      "userId": 1,
-      "oreId": 5,
-      "planetId": 3,
-      "moonId": 7,
-      "landingPoint": "OM-6",
-      "description": "Found laranite hotspot near Om-6. Head straight down from orbit.",
-      "rockData": "3400Kg @ 40%",
-      "timestamp": "2021-06-17"
-    },
     {
       "userId": 3,
       "oreId": 1,
